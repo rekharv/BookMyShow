@@ -15,7 +15,7 @@ class loginCtrl {
         function login() {
             vm.submitted = true;
             if (vm.signinForm.$valid) {
-                if (vm.userName === "aswathy" && vm.password === "achu123") {
+                if (vm.userName === "rekha" && vm.password === "password123") {
                     vm.invalidCred = false;
                     if (vm.keepLogged) {
                         vm.userDetails = {
